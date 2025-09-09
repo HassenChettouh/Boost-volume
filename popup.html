@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Boost Volume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 250px;
+            padding: 10px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 16px;
+            margin-top: 0;
+        }
+        .slider-container {
+            margin-top: 10px;
+        }
+        input[type="range"] {
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Volume Booster</h1>
+    <div class="slider-container">
+        <input type="range" id="volume-slider" min="1" max="5" step="0.1" value="1">
+        <br/>
+        <span id="volume-label">100%</span>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
